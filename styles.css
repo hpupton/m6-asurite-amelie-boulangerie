@@ -1,11 +1,14 @@
 *{
-    font-family: verdana,Arial,sans-serif;
+    font-family: Verdana,Arial,sans-serif;
     line-height: 1.5;
 }
 
 body{
     background-color: #F28095;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 header, footer{
@@ -21,7 +24,10 @@ header{
 }
 
 h1{
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
     padding-top: 50px;
     padding-left: 32px;
 }
@@ -40,12 +46,12 @@ nav{
     margin-top: 16px;
 }
 
-nav>li{
+nav li{
     list-style: none;
     text-align: center;
 }
 
-nav:link{
+nav a{
     display: block;
     padding: 16px;
     margin-top: 8px;
@@ -58,7 +64,7 @@ nav:link{
     font-weight: bold;
 }
 
-nav{
+nav:first-child{
     background-color: #f28095;
 }
 
@@ -67,20 +73,20 @@ main{
     padding-bottom: 16px;
 }
 
-img.main{
+main img{
     float: left;
 }
 
-p.main, ul.main{
+main p, main ul{
     display: inline-block;
     width: 50%;
 }
 
-p.main{
+main p{
     margin-left: 32px;
 }
 
-ul.main{
+main ul{
     margin-left: 16px;
 }
 
